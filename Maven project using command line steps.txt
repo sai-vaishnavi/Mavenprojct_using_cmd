@@ -1,0 +1,31 @@
+commands used to install and create a maven project:
+Installation and started-
+mvn --version
+
+Create a project-
+
+mvn archetype:generate -DgroupId=com.mycompany.app -DartifactId=my-app -DarchetypeArtifactId=maven-archetype-quickstart -DarchetypeVersion=1.4 -DinteractiveMode=false
+
+
+then a file got created as given artifact id
+
+and command line gor printed the following
+ ...
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  2.953 s
+[INFO] Finished at: 2019-11-24T13:05:10+01:00
+[INFO] ------------------------------------------------------------------------
+
+
+the phases were:
+
+
+validate
+generate-sources
+process-sources
+generate-resources
+process-resources
+compile
+
